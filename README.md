@@ -1,6 +1,6 @@
 ### Supported tags and respective `Dockerfile` links
 
-* `3.4.0`, `latest` ([Dockerfile](https://github.com/shadyoak/s3_website/blob/master/Dockerfile))
+* `3.4.0`, `latest` ([Dockerfile](https://github.com/azdev/s3_website/blob/master/Dockerfile))
 
 ### S3 Website Docker Image
 
@@ -10,14 +10,14 @@ This is a Docker image for the [s3_website](https://github.com/laurilehmijoki/s3
 
 To run this image:
 
-`docker run --rm -v $(pwd):/app shadyoak/s3_website [COMMAND]`
+`docker run --rm -v $(pwd):/app kidsil/s3_website [COMMAND]`
 
 For example:
 
 ```
-docker run --rm -v $(pwd):/app shadyoak/s3_website cfg create
-docker run --rm -v $(pwd):/app shadyoak/s3_website cfg apply --headless --autocreate-cloudfront-dist
-docker run --rm -v $(pwd):/app shadyoak/s3_website push
+docker run --rm -v $(pwd):/app kidsil/s3_website cfg create
+docker run --rm -v $(pwd):/app kidsil/s3_website cfg apply --headless --autocreate-cloudfront-dist
+docker run --rm -v $(pwd):/app kidsil/s3_website push
 ```
 
 See the [s3_website](https://github.com/laurilehmijoki/s3_website) documentation for more details on available commands and usage.
@@ -26,8 +26,8 @@ See the [s3_website](https://github.com/laurilehmijoki/s3_website) documentation
 
 To build this image:
 
-`docker build -t shadyoak/s3_website .`
+`docker build -t kidsil/s3_website .`
 
 #### License
 
-[MIT License](https://github.com/shadyoak/s3_website/blob/master/LICENSE)
+[MIT License](https://github.com/kidsil/s3_website/blob/master/LICENSE)
