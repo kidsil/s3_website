@@ -1,6 +1,6 @@
 FROM ruby:2.5.1-slim
 
-LABEL maintainer="Nate Morse <nathan@shadyoaksoftware.com>"
+LABEL maintainer="kidsil"
 
 ENV S3_WEBSITE_VERSION=3.4.0
 

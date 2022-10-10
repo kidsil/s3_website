@@ -31,3 +31,5 @@ To build this image:
 #### License
 
 [MIT License](https://github.com/kidsil/s3_website/blob/master/LICENSE)
+
+Fork of [shadyoak/s3_website](https://github.com/shadyoak/s3_website)
